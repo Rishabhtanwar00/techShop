@@ -23,4 +23,5 @@ export default [
       "https://res.cloudinary.com/diqqf3eq2/image/upload/v1574720064/ousbxxs7ohhddd3wz18k.png",
     amount: 4
   }
+  
 ];

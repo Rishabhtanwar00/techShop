@@ -295,7 +295,7 @@ Product List
   /* align-items: start; */
 }
 .product {
-  background: var(--mainWhite);
+  background:transparent;
   margin-bottom: 2rem;
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
@@ -308,9 +308,10 @@ Product List
 }
 .img-container {
   padding: 3rem;
-  background: rgba(255, 255, 255, 0.5);
+  background: #ffffff;
   position: relative;
   /* height: 5rem; */
+  
 }
 .product img {
   transition: var(--mainTransition);
@@ -328,6 +329,11 @@ Product List
   opacity: 0;
   transition: var(--mainTransition);
 }
+.product-link:hover {
+  color: rgb(255, 115, 0);
+  border-color: rgb(255, 115, 0);
+  background: #1b1b1b;
+}
 .product:hover .product-link {
   opacity: 1;
 }
@@ -343,7 +349,8 @@ Product List
   font-weight: bold;
   font-size: 0.8rem;
   margin-bottom: 0.5rem;
-  color: #000;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
 }
 .product-price {
   color: var(--primaryColor);
@@ -735,6 +742,7 @@ Filters Section
 .filters-form .form-control {
   display: block;
   margin-bottom: 0.6rem;
+  color: #fff;
 }
 .filters-form label {
   text-transform: capitalize;
@@ -746,12 +754,14 @@ Filters Section
   padding: 0.2rem;
   background: transparent;
   border-radius: var(--mainBorderRadius);
+  color: #fff;
 }
 .filters-form select {
   background: transparent;
   font-size: 0.8rem;
   border-color: var(--mainBlack);
   border-width: 0.5px;
+  color: #fff;
 }
 .filters-form input[type="checkbox"] {
   margin-right: 0.5rem;

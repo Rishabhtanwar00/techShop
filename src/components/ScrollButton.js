@@ -1,5 +1,5 @@
 import React from "react";
-import { FaAngleDoubleUp } from "react-icons/fa";
+import {FaAngleDoubleUp} from 'react-icons/fa';
 import { UserContext } from "../context/user";
 export default () => {
   const { height } = React.useContext(UserContext);
